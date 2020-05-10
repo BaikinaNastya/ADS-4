@@ -3,7 +3,6 @@
 template<typename T>
 class TPQueue
 {
-	
   private:
     T *arr;
     int size;
@@ -107,5 +106,6 @@ bool TPQueue<T>::isFull() const
 struct SYM
 {
 	char ch;
-	int  prior; };
+	int  prior; 
+};
 
