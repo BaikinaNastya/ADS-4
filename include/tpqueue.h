@@ -3,6 +3,7 @@
 template<typename T>
 class TPQueue
 {
+	
   private:
     T *arr;
     int size;
@@ -17,7 +18,8 @@ public:
     T pop();
     T get() const;
     bool isEmpty() const;
-    bool isFull() const;  
+    bool isFull() const; 
+	
 };
 
 template<typename T>
@@ -106,4 +108,7 @@ struct SYM
 {
 	char ch;
 	int  prior;
+	
+};
+
 
