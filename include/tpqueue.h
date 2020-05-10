@@ -107,8 +107,5 @@ bool TPQueue<T>::isFull() const
 struct SYM
 {
 	char ch;
-	int  prior;
-	
-};
-
+	int  prior; };
 
